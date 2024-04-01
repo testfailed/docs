@@ -51,7 +51,7 @@ jobs:
       cancel-in-progress: true
     steps:
       - name: Check out repo
-        uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+        uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           lfs: 'true'
